@@ -1,0 +1,120 @@
+head {}
+
+body {
+  margin: auto;
+  margin-botton: 10px;
+  background-color: white; ## f0e3c4;
+  /*font-family: "Lora",serif;*/
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+}
+
+.title{
+  margin: 0px auto;
+  background-color: white; ## f0e3c4;
+  /*font-family: "Lora",serif;*/
+  font-weight: bold;
+  /*font-style: italic;*/
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: -0.5px;
+
+}
+
+.top-container {
+  font-size: 20px;
+  padding-top: 0px;
+  margin-top: 0px;
+  /*padding-left: 300px;*/
+  padding-bottom: 20px;
+  background-color: white;
+  text-align: left;
+}
+
+
+.top-container-intro {
+  margin: 1px auto auto 12%;
+  font-size: 18px;
+  padding-top: 0px;
+  font-weight: lighter;
+  /*padding-left: 10%;
+  padding-right: 10%;*/
+  padding-bottom: 20px;
+  background-color: white;
+  text-align: left;
+}
+
+.top-container-research {
+  margin: 1px;
+  font-size: 20px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.category{
+  /*display: inline-block;*/
+  position: inherit;
+  margin: auto 1px auto 100px;
+  background-color: white;
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  /*box-sizing: border-box;*/
+  /*color: black;*/
+  text-indent: 50px;
+  padding: 0.5em 5em 0.5em 0em;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  /*border: 1px solid;*/
+}
+
+.button_category {
+  padding-right: 100px;
+  padding-left: 100px;
+  transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.button_category:hover {
+  border: 0.5px solid white;
+  box-sizing: border-box;
+  border-radius: .50rem;
+}
+
+
+.bottom {
+  padding: 300px;
+  background-color: white;
+  width: 100%;
+  color: black;
+  padding-bottom: 10px;
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+}
+
+
+.bottom_intro {
+  margin-bottom: 0px;
+  padding: 10px;
+  background-color: #1775AA;
+  width: 100%;
+  color: black;
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.img_bottom_intro {
+  padding-left: 150px;
+}
